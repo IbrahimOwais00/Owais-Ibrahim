@@ -1,0 +1,164 @@
+Assignment # 07: FORMS
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Class 7</title>
+  </head>
+  <body>
+    <center>
+      <h1>HTML & CSS Work by SMIT</h1>
+      <h2>
+        <a href="./Class 1 index.html">Class 1:</a>
+        <a href="./Class 2 index.html">Class 2:</a>
+        <a href="./Class 3 index.html">Class 3:</a>
+        <a href="./Class 4 index.html">Class 4:</a>
+        <a href="./Class 5 index.html">Class 5:</a>
+        <a href="./Class 6 index.html">Class 6:</a>
+        <a href="./Class 7 .html">Class 7:</a>
+        <style></style>
+      </h2>
+    </center>
+    <br /><br />
+    <hr />
+    <h2>Class 7: Create a form to collect information</h2>
+    <p>
+      Here, we are learn to create a form
+      <strong>for collect a visitor information.</strong>
+    </p>
+    <center>
+      <form action="./Class 6 index.html">
+        <p>
+          First Name:
+          <input type="text" name="Firstname" size="15" maxlength="50" />
+        </p>
+        <p>
+          Last Name:
+          <input type="text" name="lastaname" size="15" maxlength="50" />
+        </p>
+        <p>
+          Address:
+          <input type="text" size="17" maxlength="50" />
+        </p>
+        <p>
+          City:
+          <input type="text" size="20" maxlength="30" />
+        </p>
+      </form>
+    </center>
+    <br /><br />
+    <ul>
+      <li>Input Text</li>
+      <li>Password Input</li>
+      <li>Text Area</li>
+    </ul>
+    <center>
+      <form action="./Class 6 index.html">
+        <p>
+          Username:
+          <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>
+          Password:
+          <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+        <p>What are you think?</p>
+        <textarea name="comments" cols="30" rows="5"></textarea>
+      </form>
+    </center>
+    <br /><br />
+    <ul>
+      <li>Radio Button</li>
+      <li>Check Boxes</li>
+      <li>Drop Down List Box</li>
+      <li>File Input</li>
+    </ul>
+    <center>
+      <form>
+        <p>Please select your favorite chapter:</p>
+        <input
+          type="radio"
+          name="chapter"
+          value="structure"
+          checked="checked"
+        />
+        Structure <input type="radio" name="chapter" value="text" /> Texts
+        <input type="radio" name="chapter" value="list" /> Lists
+        <input type="radio" name="chapter" value="link" /> Links
+        <input type="radio" name="chapter" value="images" /> Images
+        <input type="radio" name="chapter" value="table" /> Tables
+        <input type="radio" name="chapter" value="form" /> Forms
+      </form>
+      <br /><br />
+      <form>
+        <p>Please select your favorite chapter:</p>
+        <input
+          type="checkbox"
+          name="chapter"
+          value="structure"
+          checked="checked"
+        />
+        Structure
+        <input type="checkbox" name="chapter" value="text" /> Texts
+        <input type="checkbox" name="chapter" value="list" /> Lists
+        <input type="checkbox" name="chapter" value="link" /> Links
+        <input type="checkbox" name="chapter" value="images" /> Images
+        <input type="checkbox" name="chapter" value="table" /> Tables
+        <input type="checkbox" name="chapter" value="form" /> Forms
+      </form>
+      <br /><br />
+      <form>
+        <p>What chapter like to face difficult?</p>
+        <select name="chapter">
+          <option value="Structure">Structure</option>
+          <option value="text">Texts</option>
+          <option value="list">Lists</option>
+          <option value="links">Links</option>
+          <option value="images">Images</option>
+          <option value="table">Tables</option>
+          <option value="form">Forms</option>
+        </select>
+      </form>
+      <br /><br />
+      <form>
+        <p>
+          Please <strong>select</strong> these chapters that do not get to your
+          mind yet:
+        </p>
+        <select name="chapter" size="3" multiple="multiple">
+          <option value="Structure">Structure</option>
+          <option value="text">Texts</option>
+          <option value="list">Lists</option>
+          <option value="link">Links</option>
+          <option value="images">Images</option>
+          <option value="table">Tables</option>
+          <option value="form">Forms</option>
+        </select>
+      </form>
+      <br /><br />
+      <form>
+        <p>Upload your favorite naat in Mp3 format:</p>
+        <input type="file" name="user.naat" /><br />
+        <input type="submit" value="Upload" />
+      </form>
+    </center>
+    <ul>
+      <li>Submit Button</li>
+      <li>Image Button</li>
+    </ul>
+    <center>
+      <form>
+        <p>Submit to our Email list:</p>
+        <input type="text" />
+        <input type="submit" name="submit" value="submit" />
+      </form>
+      <br /><br />
+      <form>
+        <p>Subcribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" />
+      </form>
+    </center>
+  </body>
+</html>
